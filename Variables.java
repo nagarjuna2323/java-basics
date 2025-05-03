@@ -639,17 +639,160 @@
 //     }
 // }
 
+// ******************************************************** PRINT ODD NUMBERS FROM 1-20 *************************************************************************
 
-class Variables{
-    public static void main(String[] args){
+// class Variables{
+//     public static void main(String[] args){
 
-        var i = 1;
+//         var i = 1;
 
-        while(i <= 20){
-            if (i % 2 != 0){
-                System.out.println(i);
-            }
-            i++;
+//         while(i <= 20){
+//             if (i % 2 != 0){
+//                 System.out.println(i);
+//             }
+//             i++;
+//         }
+//     }
+// }
+
+// ************************************************** FIND THE SUM OF DIGITS OF A GIVEN NUMBER ***********************************************************************
+
+// import java.util.Scanner;
+
+// class Variables {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+
+//         System.out.print("Enter a number: ");
+//         int number = scanner.nextInt();
+
+//         int sum = 0;
+//         int originalNumber = number;
+
+//         while (number != 0) {
+//             int digit = number % 10;  // Get last digit
+//             sum += digit;             // Add to sum
+//             number /= 10;             // Remove last digit
+//         }
+
+//         System.out.println("Sum of digits of " + originalNumber + " is: " + sum);
+//     }
+// }
+
+// *************************************************** COUNT OF DIGITS IN THE NUMBER *********************************************************************************
+
+// import java.util.Scanner;
+
+// class Variables{
+//     public static void main(String[] args){
+
+//         Scanner scanner = new Scanner(System.in);
+
+//         System.out.println("enter your number");
+
+//         int number = scanner.nextInt();
+//         int count = 0;
+//         int temp = number;
+
+//         while(temp != 0){
+//             temp = temp/10;
+//             count++;
+//         }
+//         System.out.println(count);
+//     }
+// }
+
+// ************************************************************* PRINT THE MENU UNTIL THE USER CHOOSED EXIT *******************************************************************************************,
+
+// import java.util.Scanner;
+
+// class Variables {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         int choice;
+
+//         do {
+//             // Displaying the menu
+//             System.out.println("\n===== Main Menu =====");
+//             System.out.println("1. Say Hello");
+//             System.out.println("2. Add Two Numbers");
+//             System.out.println("3. Multiply Two Numbers");
+//             System.out.println("4. Exit");
+//             System.out.print("Enter your choice: ");
+            
+//             choice = scanner.nextInt();
+
+//             // Handling choices
+//             switch (choice) {
+//                 case 1:
+//                     System.out.println("Hello, User!");
+//                     break;
+//                 case 2:
+//                     System.out.print("Enter first number: ");
+//                     int a = scanner.nextInt();
+//                     System.out.print("Enter second number: ");
+//                     int b = scanner.nextInt();
+//                     System.out.println("Sum = " + (a + b));
+//                     break;
+//                 case 3:
+//                     System.out.print("Enter first number: ");
+//                     int x = scanner.nextInt();
+//                     System.out.print("Enter second number: ");
+//                     int y = scanner.nextInt();
+//                     System.out.println("Product = " + (x * y)); 
+//                     break;
+//                 case 4:
+//                     System.out.println("Exiting the menu. Goodbye!");
+//                     break;
+//                 default:
+//                     System.out.println("Invalid choice! Please try again.");
+//             }
+
+//         } while (choice != 4); // Repeat until user selects Exit
+
+//         scanner.close();
+//     }
+// }
+
+
+// class Variables{
+//     public static void main(String[] args){
+
+//         var num = 1;
+//         var name = "nagarjuna";
+//         var initial = 'k';
+//         var office = true;
+//         var cgpa = 6.68;
+
+//         var mobile = "9963739086";
+
+//         var a = 5;
+//         var b = 2.5;
+//         var c = (a+b);
+//          System.out.println("Value of c is : " + (a+b));
+
+//         System.out.println(mobile);
+
+
+//         System.out.println(num + " " + name +" " + initial + " " + office + " " + cgpa);
+
+
+//     }
+
+// }
+
+import java.util.Arrays;
+
+class Variables {
+    public static void main(String[] args) {
+        String[] cars = {"bmw", "volvo", "benz"};
+
+        // To print the whole array
+        System.out.println(Arrays.toString(cars));
+        
+        // Or to print each car individually
+        for (String car : cars) {
+            System.out.println(car);
         }
     }
 }
