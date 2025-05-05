@@ -764,6 +764,25 @@
 //         var office = true;
 //         var cgpa = 6.68;
 
+            // var mobileName = "Iphone 12 ";
+            // var storage = 128;
+            // var working = true;
+            // var sarValue = 1.25;
+
+            //  System.out.println(mobileName + " " + storage + " " + working + " "+ sarValue);
+
+
+            //  var friendName = "Nani";
+            //  var inttial = 'T';
+            //  var isWorking = true;
+            //  var number = "9963739086";
+             
+            //  System.out.println(friendName + " " + inttial + " " + isWorking + " " + number);
+
+
+            
+                
+
 //         var mobile = "9963739086";
 
 //         var a = 5;
@@ -777,22 +796,140 @@
 //         System.out.println(num + " " + name +" " + initial + " " + office + " " + cgpa);
 
 
-//     }
-
+//      }
 // }
 
-import java.util.Arrays;
+// ***************************************************** ARRAYS PRACTICE *******************************************************************************
 
-class Variables {
-    public static void main(String[] args) {
-        String[] cars = {"bmw", "volvo", "benz"};
+// class Variables{
+//     public static void main(String[] args){
 
-        // To print the whole array
-        System.out.println(Arrays.toString(cars));
+//         String[] cars = {"Volvo", "BMW", "Benz", "Lexus"};
+
+//         for(String car : cars){
+//             System.out.println(car);
+//         }
+//     }
+// }
+
+// class Variables{
+//     public static void main(String[] args){
+
+//         String[] bikes = {"Activa", "Jupiter", "Unicorn", "Pulsar", "Splendor", "Pleasure"};
+
+//         for(String bike : bikes){
+//             System.out.println(bike);
+//         }
+//     }
+// }
+
+// class Variables{
+//     public static void main(String[] args){
+
+//         String[] gms = {"Gullapalli", "Konda", "Madan", "Kumpati", "Ashok", "Kumpati", "Deepak"};
+
+//         for(String Gms : gms){
+//             System.out.println(Gms);
+//         }
+
+//         System.out.println(gms.length);
+//     }
+// }
+
+
+// class Variables{
+//     public static void main(String[] args){
+
+//         String[] gms = {"Gullapalli", "Konda", "Madan", "Maneesh", "Ahok", "Madhu", "Kumpati", "Deepak"};
+
+//         for(var i = 0; i < gms.length; i++){
+//             System.out.println(gms[i]);
+//         }
+//     }
+// }
+
+// class Variables{
+//     public static void main(String[] args){
+
+//         String[] mobiles = {"Lenovo","Nokia","Redmi","Nokia","Apple","Nokia","Nokia","Apple","Apple"};
+
+//         for(var i = 0; i < mobiles.length; i++){
+//             System.out.println(mobiles[i]);
+//         }
+//     }
+// }
+
+// ************************************************* FIND THE LARGEST NUMBER IN AN ARRARY ***********************************************************
+
+// class Variables{
+//     public static void main(String[] args){
+    
+//     int[] marks = {80,70,90,75,100,98};
+//     int max = marks[0];
+
+//     for(var i = 0; i < marks.length; i++){
+//         if(marks[i] > max){
+//             max = marks[i];
+//         }
+//     }
+//     System.out.println(max);
+//     }
+// }
+
+// ************************************************************* DIALY TASK ***************************************************************************
+
+class Variables{
+    public static void main(String[] args){
+
+        var a = 10;
+        var b = 25; 
+        var c = 4.8;
+        var d = 7.8;
+        var name = "Nagarjuna";
+
+        var x = 10;
+        var y = x;
+        var pi = 3.14789594;
+        var brand = "Hyundai";
+        var car = "Creta";
+        var f = "N";
+        var g = "A";
+        var h = "G";
+        var i = "A";
+        var j = "R";
+        var k = "J";
+        var l = "U";
+        var m = "N";
+        var n = "A";
+    System.out.println("data copied from a to b is" + " " + b);
+    System.out.println("Original values :" +  (a + " " + b));
+    System.out.println("Original values :" +  (c + " " + d));
+    System.out.println("Original values :" +  name);
+        a= 25;
+        b= 40;
+        c= 8.7;
+        d= 5.3;
+        name = "Nani";
+
+        char[] value = {'a', 'b', 'c', 'd'};
+        int sum = 0;  
+
+        for (char add : value) {
+        sum += (int) add;
+        }    
+        System.out.println("Sum of ASCII values: " + sum);
+        System.out.println("Re-Initialized values :" + (a + " " + b));
+        System.out.println("Re-Initialized values :" + ( c + " " + d));
+        System.out.println("Re-Initialized values :" +  name);
+        System.out.println("Addition of a,b and c :"  + (a+b+c));
+        System.out.println("Subtraction of a, b and c :" + (a-b-c));
+        System.out.println("Multiplication of a, b and c :" + (a*b*c));
+        System.out.printf("Next two digits of decimal point: %.2f\n", pi);
+        System.out.printf("Division of two numbers: %.2f\n" , (b/d));
+        System.out.println("Concatinating of two strings :" + " "  + (brand+ " " +car));
+        System.out.println("Addtion of four characters :" + " "+ (f+g+h+i+j+k+l+m+n));
         
-        // Or to print each car individually
-        for (String car : cars) {
-            System.out.println(car);
-        }
+
     }
 }
+
